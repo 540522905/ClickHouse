@@ -48,6 +48,8 @@
 
 `a NOT LIKE s` – 对应函数 `notLike(a, b)`
 
+`a ILIKE s` – 对应函数 `Ilike(a, b)` ,功能与LIKE相同，区别：支持不区分大小写
+
 `a BETWEEN b AND c` – 等价于 `a >= b AND a <= c`
 
 ## 集合关系运算符 {#ji-he-guan-xi-yun-suan-fu}
